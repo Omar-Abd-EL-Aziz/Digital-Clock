@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+body {
+  font-family: 'Changa', sans-serif;
+  background: url('451964.jpg') no-repeat center center fixed;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.logo {
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  box-shadow: 4px 1px 8px 0px #13beff;
+  text-align: start;
+  color: #fff;
+  font-style: italic;
+  font-family: 'cursive';
+  padding: 12px;
+  font-weight: bold;
+}
+.logo .main {
+  margin-bottom: 0;
+}
+.logo p {
+  margin-top: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.clock {
+  /* width: 400px; */
+  height: 400px;
+  margin: 80px auto 60px;
+  text-align: center;
+  background: #000000ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 1px 8px 0px #13beff;
+}
+h3 {
+  width: fit-content;
+  margin-top: 30px;
+}
+.clock > div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.clock span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(98deg, #1b6eede3, #000000);
+  margin-top: 10px;
+
+  font-size: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-shadow: 3px 2px 3px #999;
+}
+
+.clock > div span:nth-child(2) {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #0779af;
+  text-shadow: 3px 3px 3px #000;
+}
+.am-pm {
+  position: relative;
+  bottom: -49px;
+}
+.am-pm span {
+  width: 50px;
+  font-size: 20px;
+  background: #0779af;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 19px 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  text-align: center;
+  color: #fff;
+  box-shadow: -4px 1px 8px 0px #13beff;
+}
