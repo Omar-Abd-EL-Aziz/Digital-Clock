@@ -13,6 +13,9 @@ const timeFunc = () => {
     h -= 12;
     night = "PM";
   }
+  h = h < 10 ? "0" + h : h;
+  m = m < 10 ? "0" + m : m;
+  sec = sec < 10 ? "0" + sec : sec;
 
   hours.innerText = h;
   mins.innerText = m;
